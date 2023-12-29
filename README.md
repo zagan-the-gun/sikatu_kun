@@ -4,6 +4,7 @@
 
 # インストール
 いつものやつ
+もうちょっと細かく書くと git clone して出来た sikatu_kun/ ディレクトリで以下を入力すれば良いのよ
 ```
 $ python3.10 -m venv venv3.10
 $ source venv3.10/bin/activate
