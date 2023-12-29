@@ -22,4 +22,8 @@ $ ./main.py [ディスコのAPIトークン]
 一度発報すると WANG_DA_REN ってファイルをカレントディレクトリに作るよ  
 こいつがある限り死活くんは何もしないで終了する、だってワンターレンが死亡確認してくれてるんだぜ？死んでるに決まってるさ！  
   
-あとはcronにでもブチ込んでおけば良いじゃろ
+あとはcronにでもブチ込んでおけば良いじゃろ  
+こんな感じ？
+```
+*/10 * * * * cd /home/[home directory]/sikatu_kun/; /home/[home directory]/sikatu_kun/venv3.10/bin/python3.10 /home/[home directory]/sikatu_kun/main.py >> /tmp/cron.log 2>&1
+```
