@@ -8,14 +8,15 @@
 ```
 $ python3.10 -m venv venv3.10
 $ source venv3.10/bin/activate
-$ pip install -r requirements.txt
+(venv3.10)$ pip install -r requirements.txt
 ```
 
 # 使い方
 引数にトークン書きたくない場合はカレントディレクトリの DISCORD_TOKEN ってファイルにトークン書いておけば良い  
 引数無い時は勝手に読んでくれる
 ```
-$ ./main.py [ディスコのAPIトークン]
+$ source venv3.10/bin/activate
+(venv3.10)$ ./main.py [ディスコのAPIトークン]
 ```
 
 ## 何度も発報しないために
